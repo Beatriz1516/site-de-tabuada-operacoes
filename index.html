@@ -11,12 +11,14 @@
         <h1>LOJA DE OPERAÇÕES</h1>
         <h3>Resolvemos os calculos para você!</h3>
         <a href="htmls/operações.html"><button>a</button></a>
-        <select id="opcoes" name="operacoes">
-            <option value="vermelho">T</option>
-            <option value="azul">Azul</option>
-            <option value="verde">Verde</option>
-            <option value="amarelo">Amarelo</option>
+        <select id="operacoes" name="operacoes">
+            <option value="MULTIPLICAR1" onclick="calcularTabuada()">*</option>
+            <option value="SOMAR" onclick="calcularTabuada()">+</option>
+            <option value="SUBTRAIR" onclick="calcularTabuada()">-</option>
+            <option value="DIVIDIR" onclick="calcularTabuada()">/</option>
           </select>
+
+          <button onclick="calcularTabuada()">Calcular</button>
     </header>
 </body>
 </html>
