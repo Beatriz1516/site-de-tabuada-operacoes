@@ -1,6 +1,16 @@
+
+
+
+
+
+
+
+
+
 function calcularTabuada() {
     let numero = document.getElementById("numero").value;
     let resultadoDiv = document.getElementById("resultado");
+    let 
 
     if (numero === "") {
         resultadoDiv.innerHTML = "<p style='color:red'> Digite um número válido!</p>";
@@ -16,6 +26,23 @@ function calcularTabuada() {
         resultadoDiv.innerHTML = resultadoHTML;
     }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function calcularSoma() {
     let numeroS = document.getElementById("numeroS").value;
